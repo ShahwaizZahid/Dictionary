@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="Dictionary.css">
+  <script src="https://kit.fontawesome.com/e63496ca66.js" crossorigin="anonymous"></script>
+  <title>Document</title>
+</head>
+
+<body>
+
+  <div class="mainContainer">
+    <header class="header">
+      <img class="bookImg" height="60px" src="open-book.png" alt="">
+      <div class="checkBox">
+        <div class="checkboxText">Sans-Serif</div>
+        <div class="check-box-div">
+          <input type="checkbox" name="" id="">
+          <i class="fa-regular fa-moon fa-2ml" style="color: #483285;"></i>
+
+        </div>
+    </header>
+    <main>
+      <div class="searchContainer">
+        <input placeholder="Search a Word" class="searchInput" type="text" name="" id="">
+        <svg class="searchIcon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18">
+          <path fill="none" stroke="#A445ED" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+            d="m12.663 12.663 3.887 3.887M1 7.664a6.665 6.665 0 1 0 13.33 0 6.665 6.665 0 0 0-13.33 0Z"></path>
+        </svg>
+      </div>
+      <div class="word-container">
+        <div class="wordHeading">
+          <div>
+            <h1 class="word">hello</h1>
+            <h3 class="pronunciation">/həˈloʊ/</h3>
+          </div>
+          <div>
+            <button class="audio-btn">
+              <i class="fa-solid fa-play fa-2xl" style="color: #483285;"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <div class="not-find"> Not find</div>
+    <main class="mainHeading">
+
+      
+      <div class="template-heading">
+        <template class="word-noun">
+          <div class="words-noun">
+            <span class="noun-heading"></span>
+            <div class="line"></div>
+          </div>
+          <ul class="noun-meaning-heading">Definition</ul>
+          <ul class="synonym-heading">Synonym </ul>
+
+        </template>
+
+        <template class="source-template">
+          <div class="sources-template">
+            <ul class="sources">Sources
+            </ul>
+          </div>
+        </template>
+      </div>
+  </div>
+  </main>
+  <script src="Dictionary.js"></script>
+</body>
+
+</html>
